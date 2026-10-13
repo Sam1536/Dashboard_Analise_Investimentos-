@@ -1,0 +1,48 @@
+table _Medidas
+	lineageTag: a1928d24-b9e5-4282-9a3e-6e65b8e79fed
+
+	measure 'Total Investido' = SUM('Movimentações'[Valor])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 412a734f-91e8-4a0a-b7ed-c88d7683b2b6
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Qtd Ativos' = SUM('Movimentações'[Quantidade])
+		formatString: 0
+		lineageTag: 5762f88d-f15f-4638-af85-eba4172ed1bb
+
+	measure 'Preco Medio' = [Total Investido] / [Qtd Ativos]
+		lineageTag: 6abb0f33-ee2e-4474-8b97-8c08f8ce7319
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Atual' = SUM('Movimentações'[Valor Atual])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: c9f7d447-be26-4caa-9f81-3f4ff34de614
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Total Proventos' = SUM(Proventos[Valor])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: ca687492-00ea-4e30-a6c1-88da689120dd
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure '% Valorização' = [Total Atual] / [Total Investido] -1
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 5df1a6e9-fb73-4760-877a-fd7f31949c31
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

@@ -1,0 +1,90 @@
+table Proventos
+	lineageTag: a3c5bc4a-c68b-4c1f-86ad-94fa72c93fcd
+
+	column 'Data Movimentação'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 664f29b1-1927-48a0-8595-a434b66f6b77
+		summarizeBy: none
+		sourceColumn: Data Movimentação
+
+		variation Variation
+			isDefault
+			relationship: 5e7896aa-c172-4430-a349-ad2357464d20
+			defaultHierarchy: LocalDateTable_6c9461ae-d11d-48fe-9393-ecd0ccc8e646.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Descrição
+		dataType: string
+		lineageTag: 23453798-d2f4-4a37-8315-07007b723f67
+		summarizeBy: none
+		sourceColumn: Descrição
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo Movimentação'
+		dataType: string
+		lineageTag: 711be03b-1152-414f-8be4-c62da700af51
+		summarizeBy: none
+		sourceColumn: Tipo Movimentação
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo Ativo'
+		dataType: string
+		lineageTag: 9f09983d-c348-44c6-a622-371a9ba5756e
+		summarizeBy: none
+		sourceColumn: Tipo Ativo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantidade
+		dataType: int64
+		formatString: 0
+		lineageTag: a01bd6c7-c128-4f6a-b3aa-f37ce4812508
+		summarizeBy: sum
+		sourceColumn: Quantidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Preço
+		dataType: double
+		lineageTag: cfa06bb9-0a11-481f-acda-b2a4f62d9aa7
+		summarizeBy: sum
+		sourceColumn: Preço
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Valor
+		dataType: double
+		lineageTag: 01aafbec-c758-437d-8327-c5163611d904
+		summarizeBy: sum
+		sourceColumn: Valor
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Proventos = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\a-agn\Documents\PoweBi Exercícios e Outros\PowerBI_Impressionador_Hashtag_2023 Materia\Importação e Tratamento de BD-Power Query\Lives Dashboards\Dashboard Análise de Investimentos no Power BI\Investimentos.xlsm"), null, true),
+				    Movimentações_Sheet = Fonte{[Item="Movimentações",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Movimentações_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Data Movimentação", type date}, {"Descrição", type text}, {"Tipo Movimentação", type text}, {"Tipo Ativo", type text}, {"Quantidade", Int64.Type}, {"Preço", type number}, {"Valor", type number}, {"Column8", type any}, {"Column9", type any}, {"Column10", type any}, {"Column11", type any}, {"Column12", type any}, {"Column13", type any}, {"Column14", type any}, {"Column15", type any}, {"Column16", type any}, {"Column17", type any}, {"Column18", type any}, {"Column19", type any}, {"Column20", type any}, {"Column21", type any}, {"Column22", type any}, {"Column23", type any}, {"Column24", type any}, {"Column25", type any}, {"Column26", type any}, {"Column27", type any}, {"Column28", type any}, {"Column29", type any}, {"Column30", type any}, {"Column31", type any}, {"Column32", type any}, {"Column33", type any}, {"Column34", type any}, {"Column35", type any}}),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Tipo Alterado",{"Data Movimentação", "Descrição", "Tipo Movimentação", "Tipo Ativo", "Quantidade", "Preço", "Valor"}),
+				    #"Linhas em Branco Removidas" = Table.SelectRows(#"Outras Colunas Removidas", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Linhas em Branco Removidas", each ([Tipo Movimentação] = "Provento"))
+				in
+				    #"Linhas Filtradas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

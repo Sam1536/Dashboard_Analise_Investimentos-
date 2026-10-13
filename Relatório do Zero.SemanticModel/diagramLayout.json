@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Carteira Ações",
+          "nodeLineageTag": "d81fca22-4a34-4456-b103-47ec4f555087",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 567,
+            "y": 0
+          },
+          "nodeIndex": "Fundos Imobiliários",
+          "nodeLineageTag": "f0515104-8f98-4950-b4dd-0e4cb5f6ecb3",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 84,
+            "y": 319
+          },
+          "nodeIndex": "Movimentações",
+          "nodeLineageTag": "9bab3a28-59a5-4b64-b152-e5b66c400eb6",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 501,
+            "y": 415
+          },
+          "nodeIndex": "Proventos",
+          "nodeLineageTag": "a3c5bc4a-c68b-4c1f-86ad-94fa72c93fcd",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 725,
+            "y": 240.5
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "a1928d24-b9e5-4282-9a3e-6e65b8e79fed",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 4
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

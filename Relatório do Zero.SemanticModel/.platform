@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Relatório do Zero"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "74242214-4b02-4c30-a0a7-a056d8da19e9"
+  }
+}

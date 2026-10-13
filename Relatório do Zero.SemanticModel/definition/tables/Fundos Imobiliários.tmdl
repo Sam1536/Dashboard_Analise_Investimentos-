@@ -1,0 +1,47 @@
+table 'Fundos Imobiliários'
+	lineageTag: f0515104-8f98-4950-b4dd-0e4cb5f6ecb3
+
+	column 'ID FII'
+		dataType: int64
+		formatString: 0
+		lineageTag: 131dd30f-0881-47da-ba99-7f89f604ccac
+		summarizeBy: sum
+		sourceColumn: ID FII
+
+		annotation SummarizationSetBy = Automatic
+
+	column TICKER
+		dataType: string
+		lineageTag: e1a25031-c64b-46dc-8c46-9798fa8df39d
+		summarizeBy: none
+		sourceColumn: TICKER
+
+		annotation SummarizationSetBy = Automatic
+
+	column Preço
+		dataType: double
+		lineageTag: d44f8e39-aa8f-4518-803a-964a7b1957d0
+		summarizeBy: sum
+		sourceColumn: Preço
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Fundos Imobiliários' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\a-agn\Documents\PoweBi Exercícios e Outros\PowerBI_Impressionador_Hashtag_2023 Materia\Importação e Tratamento de BD-Power Query\Lives Dashboards\Dashboard Análise de Investimentos no Power BI\Investimentos.xlsm"), null, true),
+				    #"Fundos Imobiliários_Sheet" = Fonte{[Item="Fundos Imobiliários",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Fundos Imobiliários_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID FII", Int64.Type}, {"TICKER", type text}}),
+				    #"Consultas Mescladas" = Table.NestedJoin(#"Tipo Alterado", {"TICKER"}, #"Preços Flls", {"Ticket Fll"}, "Preços Flls", JoinKind.LeftOuter),
+				    #"Preços Flls Expandido" = Table.ExpandTableColumn(#"Consultas Mescladas", "Preços Flls", {"Preço"}, {"Preço"})
+				in
+				    #"Preços Flls Expandido"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

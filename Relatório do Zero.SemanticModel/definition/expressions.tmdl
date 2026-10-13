@@ -1,0 +1,28 @@
+expression 'Preços Ações' =
+		let
+		    Fonte = GoogleSheets.Contents("https://docs.google.com/spreadsheets/d/1lv_ey-iFXl7f2gOJxaZwWr_VT4eosFSEmYhq6Pft2gk/edit?usp=sharing"),
+		    #"Preços Ações _Table" = Fonte{[name="Preços Ações ",ItemKind="Table"]}[Data],
+		    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Preços Ações _Table", [PromoteAllScalars=true]),
+		    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Ticket Ação", type text}, {"Preço", type number}})
+		in
+		    #"Tipo Alterado"
+	lineageTag: 19886f4a-8baa-4163-8d93-37e2801b746b
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
+expression 'Preços Flls' =
+		let
+		    Fonte = GoogleSheets.Contents("https://docs.google.com/spreadsheets/d/1lv_ey-iFXl7f2gOJxaZwWr_VT4eosFSEmYhq6Pft2gk/edit?usp=sharing"),
+		    #"Preços Flls_Table" = Fonte{[name="Preços Flls",ItemKind="Table"]}[Data],
+		    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Preços Flls_Table", [PromoteAllScalars=true]),
+		    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Ticket Fll", type text}, {"Preço", type number}})
+		in
+		    #"Tipo Alterado"
+	lineageTag: 0e54c025-c919-4529-a79e-4c4116d24157
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

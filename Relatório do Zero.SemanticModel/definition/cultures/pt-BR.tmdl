@@ -1,0 +1,3774 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "carteira_açõe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Carteira Ações"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "carteira açõe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "carteira_açõe.ID_ação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Carteira Ações",
+			          "ConceptualProperty": "ID Ação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID ação": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification ação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity ação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier ação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential ação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "carteira_açõe.ticker": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Carteira Ações",
+			          "ConceptualProperty": "TICKER"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticker": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "carteira_açõe.preço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Carteira Ações",
+			          "ConceptualProperty": "Preço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movimentaçõe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.data_movimentação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Data Movimentação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data movimentação": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movimentaçõe.data_movimentação.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.data_movimentação.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.data_movimentação.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.data_movimentação.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.data_movimentação.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.descrição": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Descrição"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "descrição": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.tipo_movimentação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Tipo Movimentação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo movimentação": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.tipo_ativo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Tipo Ativo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo ativo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.quantidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Quantidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.preço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Preço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.preco_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Preco Atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preco atual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentaçõe.valor_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentações",
+			          "ConceptualProperty": "Valor Atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor atual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fundos Imobiliários"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fundos imobiliário": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fundo imobiliário": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário.id_fii": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fundos Imobiliários",
+			          "ConceptualProperty": "ID FII"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id fii": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification fii": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity fii": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier fii": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential fii": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário.ticker": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fundos Imobiliários",
+			          "ConceptualProperty": "TICKER"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticker": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário.preço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fundos Imobiliários",
+			          "ConceptualProperty": "Preço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "provento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento.data_movimentação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Data Movimentação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data movimentação": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "provento.data_movimentação.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "provento.data_movimentação.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "provento.data_movimentação.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "provento.data_movimentação.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "provento.data_movimentação.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "VariationSource": "Data Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data movimentação dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "provento.descrição": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Descrição"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "descrição": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento.tipo_movimentação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Tipo Movimentação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo movimentação": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento.tipo_ativo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Tipo Ativo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo ativo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento.quantidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Quantidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento.preço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Preço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "provento.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Proventos",
+			          "ConceptualProperty": "Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_investido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total Investido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total investido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate investido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall investido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.qtd_ativos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Qtd Ativos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd ativos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.preco_medio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Preco Medio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preco medio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total Atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total atual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate atual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall atual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_proventos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total Proventos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total proventos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate provento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall provento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.valorização": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% Valorização"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% valorização": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage valorização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct valorização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Valorização Ativos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "provento_data_movimentação_mê_has_provento_data_movimentação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.mê": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.mê"
+			          }
+			        },
+			        "provento.data_movimentação.dia": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.mê"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.dia"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "provento.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_trimestre_has_provento_data_movimentação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.trimestre"
+			          }
+			        },
+			        "provento.data_movimentação.mê": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.mê"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_ano_has_provento_data_movimentação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.ano": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.ano"
+			          }
+			        },
+			        "provento.data_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.ano"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "provento.data_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_hierarquia_de_data_has_provento_data_movimentação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "provento.data_movimentação.dia": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_hierarquia_de_data_has_provento_data_movimentação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "provento.data_movimentação.mê": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_hierarquia_de_data_has_provento_data_movimentação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "provento.data_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_hierarquia_de_data_has_provento_data_movimentação_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "provento.data_movimentação.ano": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "provento_data_movimentação_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento.data_movimentação": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação"
+			          }
+			        },
+			        "provento.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento.data_movimentação"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_movimentaçãos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_mê_has_movimentaçõe_data_movimentação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.mê": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.mê"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.dia": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.dia"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_trimestre_has_movimentaçõe_data_movimentação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.trimestre"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.mê": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_ano_has_movimentaçõe_data_movimentação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.ano": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.ano"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.ano"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_hierarquia_de_data_has_movimentaçõe_data_movimentação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.dia": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_hierarquia_de_data_has_movimentaçõe_data_movimentação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.mê": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_hierarquia_de_data_has_movimentaçõe_data_movimentação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_hierarquia_de_data_has_movimentaçõe_data_movimentação_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.ano": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_data_movimentação_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe.data_movimentação": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe.data_movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_movimentaçãos_have_hierarquia_de_data1"
+			        }
+			      ]
+			    },
+			    "provento_has_fundos_imobiliário": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "fundos_imobiliário": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "fundos_imobiliário"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_fundos_imobiliários"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fundos_imobiliário"
+			            },
+			            "Object": {
+			              "Role": "provento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fundos_imobiliários_have_proventos"
+			        }
+			      ]
+			    },
+			    "provento_has_carteira_açõe": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "carteira_açõe": {
+			          "Target": {
+			            "Entity": "carteira_açõe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "carteira_açõe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_carteira_ações"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "carteira_açõe"
+			            },
+			            "Object": {
+			              "Role": "provento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "carteira_ações_have_proventos"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_fundos_imobiliário": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "fundos_imobiliário": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "fundos_imobiliário"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_fundos_imobiliários"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fundos_imobiliário"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fundos_imobiliários_have_movimentações"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_carteira_açõe": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "carteira_açõe": {
+			          "Target": {
+			            "Entity": "carteira_açõe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "carteira_açõe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_carteira_ações"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "carteira_açõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "carteira_ações_have_movimentações"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_entity__medida_valorização": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "entity__medida.valorização": {
+			          "Target": {
+			            "Entity": "entity__medida.valorização"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.valorização"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have__valorização"
+			        }
+			      ]
+			    },
+			    "provento_has_entity__medida_total_proventos": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "entity__medida.total_proventos": {
+			          "Target": {
+			            "Entity": "entity__medida.total_proventos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_proventos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_total_proventos"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_entity__medida_total_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "entity__medida.total_atual": {
+			          "Target": {
+			            "Entity": "entity__medida.total_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_total_atual"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_entity__medida_preco_medio": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "entity__medida.preco_medio": {
+			          "Target": {
+			            "Entity": "entity__medida.preco_medio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.preco_medio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_preco_medio"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_entity__medida_qtd_ativos": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "entity__medida.qtd_ativos": {
+			          "Target": {
+			            "Entity": "entity__medida.qtd_ativos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.qtd_ativos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_qtd_ativos"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_entity__medida_total_investido": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "entity__medida.total_investido": {
+			          "Target": {
+			            "Entity": "entity__medida.total_investido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_investido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_total_investido"
+			        }
+			      ]
+			    },
+			    "provento_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "provento.valor": {
+			          "Target": {
+			            "Entity": "provento.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "provento.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_valor"
+			        }
+			      ]
+			    },
+			    "provento_has_preço": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "provento.preço": {
+			          "Target": {
+			            "Entity": "provento.preço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "provento.preço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_preços"
+			        }
+			      ]
+			    },
+			    "provento_has_quantidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "provento.quantidade": {
+			          "Target": {
+			            "Entity": "provento.quantidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "provento.quantidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_quantidades"
+			        }
+			      ]
+			    },
+			    "provento_has_tipo_ativo": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "provento.tipo_ativo": {
+			          "Target": {
+			            "Entity": "provento.tipo_ativo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "provento.tipo_ativo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_tipo_ativos"
+			        }
+			      ]
+			    },
+			    "provento_has_tipo_movimentação": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "provento.tipo_movimentação": {
+			          "Target": {
+			            "Entity": "provento.tipo_movimentação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "provento.tipo_movimentação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_tipo_movimentaçãos"
+			        }
+			      ]
+			    },
+			    "provento_has_data_movimentação": {
+			      "Binding": {
+			        "ConceptualEntity": "Proventos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "provento": {
+			          "Target": {
+			            "Entity": "provento"
+			          }
+			        },
+			        "provento.data_movimentação": {
+			          "Target": {
+			            "Entity": "provento.data_movimentação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "provento"
+			            },
+			            "Object": {
+			              "Role": "provento.data_movimentação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "proventos_have_data_movimentaçãos"
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário_has_preço": {
+			      "Binding": {
+			        "ConceptualEntity": "Fundos Imobiliários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fundos_imobiliário": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário"
+			          }
+			        },
+			        "fundos_imobiliário.preço": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário.preço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fundos_imobiliário"
+			            },
+			            "Object": {
+			              "Role": "fundos_imobiliário.preço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fundos_imobiliários_have_preços"
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário_has_ticker": {
+			      "Binding": {
+			        "ConceptualEntity": "Fundos Imobiliários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fundos_imobiliário": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário"
+			          }
+			        },
+			        "fundos_imobiliário.ticker": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário.ticker"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fundos_imobiliário"
+			            },
+			            "Object": {
+			              "Role": "fundos_imobiliário.ticker"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fundos_imobiliários_have_tickers"
+			        }
+			      ]
+			    },
+			    "fundos_imobiliário_has_id_fii": {
+			      "Binding": {
+			        "ConceptualEntity": "Fundos Imobiliários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fundos_imobiliário": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário"
+			          }
+			        },
+			        "fundos_imobiliário.id_fii": {
+			          "Target": {
+			            "Entity": "fundos_imobiliário.id_fii"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fundos_imobiliário"
+			            },
+			            "Object": {
+			              "Role": "fundos_imobiliário.id_fii"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fundos_imobiliários_have_id_fiis"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_valor_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.valor_atual": {
+			          "Target": {
+			            "Entity": "movimentaçõe.valor_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.valor_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_valor_atuals"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_preco_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.preco_atual": {
+			          "Target": {
+			            "Entity": "movimentaçõe.preco_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.preco_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_preco_atuals"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.valor": {
+			          "Target": {
+			            "Entity": "movimentaçõe.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_valor"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_preço": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.preço": {
+			          "Target": {
+			            "Entity": "movimentaçõe.preço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.preço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_preços"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_quantidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.quantidade": {
+			          "Target": {
+			            "Entity": "movimentaçõe.quantidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.quantidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_quantidades"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_tipo_ativo": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.tipo_ativo": {
+			          "Target": {
+			            "Entity": "movimentaçõe.tipo_ativo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.tipo_ativo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_tipo_ativos"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_tipo_movimentação": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.tipo_movimentação": {
+			          "Target": {
+			            "Entity": "movimentaçõe.tipo_movimentação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.tipo_movimentação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_tipo_movimentaçãos"
+			        }
+			      ]
+			    },
+			    "movimentaçõe_has_data_movimentação": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentaçõe": {
+			          "Target": {
+			            "Entity": "movimentaçõe"
+			          }
+			        },
+			        "movimentaçõe.data_movimentação": {
+			          "Target": {
+			            "Entity": "movimentaçõe.data_movimentação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentaçõe"
+			            },
+			            "Object": {
+			              "Role": "movimentaçõe.data_movimentação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentações_have_data_movimentaçãos"
+			        }
+			      ]
+			    },
+			    "carteira_açõe_has_preço": {
+			      "Binding": {
+			        "ConceptualEntity": "Carteira Ações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "carteira_açõe": {
+			          "Target": {
+			            "Entity": "carteira_açõe"
+			          }
+			        },
+			        "carteira_açõe.preço": {
+			          "Target": {
+			            "Entity": "carteira_açõe.preço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "carteira_açõe"
+			            },
+			            "Object": {
+			              "Role": "carteira_açõe.preço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "carteira_ações_have_preços"
+			        }
+			      ]
+			    },
+			    "carteira_açõe_has_ticker": {
+			      "Binding": {
+			        "ConceptualEntity": "Carteira Ações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "carteira_açõe": {
+			          "Target": {
+			            "Entity": "carteira_açõe"
+			          }
+			        },
+			        "carteira_açõe.ticker": {
+			          "Target": {
+			            "Entity": "carteira_açõe.ticker"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "carteira_açõe"
+			            },
+			            "Object": {
+			              "Role": "carteira_açõe.ticker"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "carteira_ações_have_tickers"
+			        }
+			      ]
+			    },
+			    "carteira_açõe_has_ID_ação": {
+			      "Binding": {
+			        "ConceptualEntity": "Carteira Ações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "carteira_açõe": {
+			          "Target": {
+			            "Entity": "carteira_açõe"
+			          }
+			        },
+			        "carteira_açõe.ID_ação": {
+			          "Target": {
+			            "Entity": "carteira_açõe.ID_ação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "carteira_açõe"
+			            },
+			            "Object": {
+			              "Role": "carteira_açõe.ID_ação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "carteira_ações_have_ID_açãos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

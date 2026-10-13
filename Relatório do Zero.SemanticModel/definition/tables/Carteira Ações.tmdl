@@ -1,0 +1,48 @@
+table 'Carteira Ações'
+	lineageTag: d81fca22-4a34-4456-b103-47ec4f555087
+
+	column 'ID Ação'
+		dataType: int64
+		formatString: 0
+		lineageTag: 2eba1568-7760-43ad-bfeb-6c06844316d6
+		summarizeBy: sum
+		sourceColumn: ID Ação
+
+		annotation SummarizationSetBy = Automatic
+
+	column TICKER
+		dataType: string
+		lineageTag: a8c8df2f-968b-45f5-a6ea-c4be36a665bc
+		summarizeBy: none
+		sourceColumn: TICKER
+
+		annotation SummarizationSetBy = Automatic
+
+	column Preço
+		dataType: double
+		lineageTag: a0954950-cba3-4890-b7ca-d95ce1037391
+		summarizeBy: sum
+		sourceColumn: Preço
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Carteira Ações' = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\a-agn\Documents\PoweBi Exercícios e Outros\PowerBI_Impressionador_Hashtag_2023 Materia\Importação e Tratamento de BD-Power Query\Lives Dashboards\Dashboard Análise de Investimentos no Power BI\Investimentos.xlsm"), null, true),
+				    #"Carteira Ações_Sheet" = Fonte{[Item="Carteira Ações",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Carteira Ações_Sheet", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID Ação", Int64.Type}, {"TICKER", type text}}),
+				    #"Linhas Inferiores Removidas" = Table.RemoveLastN(#"Tipo Alterado",2),
+				    #"Consultas Mescladas" = Table.NestedJoin(#"Linhas Inferiores Removidas", {"TICKER"}, #"Preços Ações", {"Ticket Ação"}, "Preços Ações", JoinKind.LeftOuter),
+				    #"Preços Ações Expandido" = Table.ExpandTableColumn(#"Consultas Mescladas", "Preços Ações", {"Preço"}, {"Preço"})
+				in
+				    #"Preços Ações Expandido"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

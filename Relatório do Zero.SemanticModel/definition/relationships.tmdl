@@ -1,0 +1,26 @@
+relationship a1c73521-c4dc-4864-939f-fcc3bc0c7ab0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Movimentações.'Data Movimentação'
+	toColumn: LocalDateTable_5c342c4a-36ae-4e8a-bd34-4771128252ed.Date
+
+relationship 5e7896aa-c172-4430-a349-ad2357464d20
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Proventos.'Data Movimentação'
+	toColumn: LocalDateTable_6c9461ae-d11d-48fe-9393-ecd0ccc8e646.Date
+
+relationship 31c0bfc1-960c-b7f9-6316-d2ded79e25ba
+	fromColumn: Movimentações.Descrição
+	toColumn: 'Carteira Ações'.TICKER
+
+relationship c227c9df-da73-a2f8-a237-b3b17df02c77
+	fromColumn: Proventos.Descrição
+	toColumn: 'Carteira Ações'.TICKER
+
+relationship e138a83c-35a1-3d17-1bab-a6f7b6534f4f
+	fromColumn: Movimentações.Descrição
+	toColumn: 'Fundos Imobiliários'.TICKER
+
+relationship 6f0c7306-fadf-3341-c1c8-1147b82665a6
+	fromColumn: Proventos.Descrição
+	toColumn: 'Fundos Imobiliários'.TICKER
+
